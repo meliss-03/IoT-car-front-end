@@ -10,7 +10,7 @@ let mensaje = document.getElementById('mensaje');
 
 function callApi(estatus) {
     axios
-    .get('http://18.189.11.214/iot-car-control/iot-car-control/back-end/apis/setRegistro.php?valorEstatus='+estatus)
+    .get('http://18.188.215.164/iot-car-control/iot-car-control/back-end/apis/setRegistro.php?valorEstatus='+estatus)
   .then(function (response) {
     // handle success
     console.log(response);
